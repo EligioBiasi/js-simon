@@ -7,7 +7,7 @@ let counter = setInterval(function(){
     
     let timeDifference = dateOfArrival-today;
 
-    if(timer=0){
+    if(timeDifference==0){
         clearInterval(dateOfArrival);
         document.getElementById('countdown').innerHTML='Inizia la lezione'
     }else{
